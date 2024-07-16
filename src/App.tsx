@@ -1,15 +1,10 @@
 import "./App.css";
-import User from "./components/user";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div>
-      <User
-        name="Habibur Rahman"
-        email="habib@email.com"
-        age={22}
-        isRegistered={true}
-      ></User>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </div>
   );
 }
